@@ -31,6 +31,7 @@ function App() {
   // ユーザーが名前を入力することで
   // names配列の各要素が更新され、席替えの対象となります。
   // この関数は、席替えの際に名前をシャッフルするために使用されます。
+
   const handleNameChange = (index, value) => {
     const updated = [...names];
     updated[index] = value;

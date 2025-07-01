@@ -1,3 +1,7 @@
+// src/components/ResultScreen.jsx
+// このファイルは、結果発表のオーバーレイを表示するコンポーネントです。
+// フレームモーションを使用して、結果発表のメッセージをアニメーション化しています。
+// また、音声を再生する機能も含まれています。
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 
